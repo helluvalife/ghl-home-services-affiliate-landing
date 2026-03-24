@@ -3,21 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚡ Supercharge Your Home Services Business with GoHighLevel - Free Trial! ⚡</title>
-    <meta name="description" content="Home Service Pros: Stop losing leads and struggling with manual tasks. GoHighLevel is the all-in-one platform to automate lead generation, client management, and grow your business.">
+    <title>Stop Losing Leads | The All-In-One System for Home Service Businesses</title>
+    <meta name="description" content="Home Service Pros: Stop losing leads to faster competitors. GoHighLevel is the all-in-one platform to automate lead follow-up, client management, and grow your business.">
     <style>
-        /* Inspired by GoHighLevel's clean, modern aesthetic */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f8faff; /* Light blueish-gray background */
-            color: #1a202c; /* Darker text for readability */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
+            background-color: #f7f9fc;
+            color: #2c3e50;
         }
         .header-bar {
             background: #ffffff;
@@ -25,147 +20,242 @@
             padding: 15px 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             text-align: center;
+            border-bottom: 3px solid #155eef;
         }
         .header-bar h1 {
             margin: 0;
-            color: #155eef; /* GoHighLevel primary blue */
-            font-size: 1.8em;
+            color: #155eef;
+            font-size: 1.6em;
+            font-weight: 600;
         }
         .container {
             width: 90%;
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 30px;
+            max-width: 800px; /* More focused for long-form copy */
+            margin: 40px auto;
+            padding: 40px;
             background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
             text-align: center;
         }
-        .hero-section h2 {
-            font-size: 2.5em;
+        .section {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        h2.main-headline {
+            font-size: 2.8em;
             color: #1a202c;
             margin-bottom: 15px;
+            line-height: 1.2;
+            font-weight: 700;
         }
-        .hero-section p {
-            font-size: 1.2em;
+        h3.sub-headline {
+            font-size: 1.4em;
             color: #4a5568;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
+            font-weight: 400;
         }
-        .value-props {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
+        h3.section-headline {
+             font-size: 2.2em;
+             color: #155eef;
+             margin-bottom: 30px;
         }
-        .value-prop-card {
-            background: #e2f0ff; /* Lighter blue background */
-            padding: 20px;
-            border-radius: 8px;
-            width: 100%;
-            max-width: 300px;
+        .pain-points-list {
+            list-style: none;
+            padding: 0;
             text-align: left;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            max-width: 600px;
+            margin: 30px auto;
         }
-        .value-prop-card h3 {
+        .pain-points-list li {
+            background: #fffbe6; /* Light warning yellow */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 5px solid #ffc107; /* Warning yellow */
+            font-size: 1.1em;
+        }
+        .pain-points-list strong {
+            color: #d9534f; /* Red for emphasis on pain */
+        }
+        .agitate-text {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #718096;
+            max-width: 700px;
+            margin: 20px auto;
+            border-left: 4px solid #e2e8f0;
+            padding-left: 20px;
+            text-align: left;
+        }
+        .solution-grid {
+            text-align: left;
+            margin-top: 40px;
+        }
+        .solution-item {
+            margin-bottom: 25px;
+        }
+        .solution-item .pain {
+            font-weight: 700;
+            color: #d9534f;
+            font-size: 1.1em;
+        }
+        .solution-item .ghl-solution {
+            background: #e2f0ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-left: 4px solid #155eef;
+        }
+        .solution-item .ghl-solution strong {
             color: #155eef;
-            font-size: 1.3em;
-            margin-top: 0;
         }
         .cta-button {
             display: inline-block;
-            background: #155eef; /* GoHighLevel primary blue */
+            background: #28a745; /* Green for go */
             color: #ffffff;
-            padding: 15px 30px;
+            padding: 20px 40px;
             text-decoration: none;
             border-radius: 8px;
-            margin-top: 40px;
-            font-size: 1.4em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.6em;
             font-weight: 700;
             transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 4px 10px rgba(21, 94, 239, 0.3);
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            line-height: 1.3;
         }
         .cta-button:hover {
-            background: #0d46b8;
-            transform: translateY(-2px);
+            background: #218838;
+            transform: translateY(-3px);
         }
-        .testimonials {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 1px solid #e2e8f0;
+        .cta-subtext {
+            font-size: 0.9em;
+            color: #718096;
         }
         .testimonial-card {
-            background: #f0f4f8;
-            padding: 20px;
+            background: #f8f9fa;
+            padding: 25px;
             border-radius: 8px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             text-align: left;
+            border: 1px solid #e2e8f0;
         }
         .testimonial-card p {
             font-style: italic;
             color: #4a5568;
+            font-size: 1.1em;
+            margin-top: 0;
         }
         .testimonial-card footer {
             font-weight: bold;
-            margin-top: 10px;
+            margin-top: 15px;
             color: #1a202c;
+            text-align: right;
         }
-        footer {
-            background: #2d3748; /* Darker footer */
+        footer.main-footer {
+            background: #2c3e50;
             color: #e2e8f0;
             text-align: center;
             padding: 25px 0;
-            margin-top: auto; /* Pushes footer to the bottom */
+            margin-top: auto;
             width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="header-bar">
-        <div class="container-small">
-            <h1>GoHighLevel for Home Service Pros</h1>
+        <h1>GoHighLevel for Home Service Pros</h1>
+    </div>
+
+    <div class="container">
+        <!-- Section 1: The Hook & The Pain -->
+        <div class="section">
+            <h2 class="main-headline">Are You A Pro On The Tools, But An Amateur At Lead Follow-Up? Stop Leaving Thousands On The Table.</h2>
+            <h3 class="sub-headline">You're an expert at your trade. But while you're on a job, crawling through an attic or under a sink, missed calls, unread emails, and forgotten web leads are silently killing your growth.</h3>
+            
+            <h3 class="section-headline">Does This Sound Familiar?</h3>
+            <ul class="pain-points-list">
+                <li>You miss a call while you're with a client. You try to call back an hour later, but they've already booked with the competitor who answered first. <strong>(Lost Revenue)</strong></li>
+                <li>A potential client fills out your website contact form. The notification gets buried. You find it two days later, but they've already moved on. <strong>(Wasted Marketing)</strong></li>
+                <li>You get a text from a new lead while you're driving. You make a "mental note" to reply later, but the day gets crazy and you completely forget. <strong>(Missed Opportunity)</strong></li>
+                <li>You're trying to manage leads from your phone, email, and Facebook. It's chaos. You know you're dropping the ball, but there aren't enough hours in the day. <strong>(Overwhelming Stress)</strong></li>
+            </ul>
+        </div>
+
+        <!-- Section 2: Agitate the Pain -->
+        <div class="section">
+             <h3 class="section-headline">This Isn't Just an Inconvenience—It's a Leak in Your Business.</h3>
+            <p class="agitate-text">That nagging feeling in the back of your head... "Did I call that person back?"</p>
+            <p class="agitate-text">That sinking feeling when you realize a $5,000 job slipped through your fingers, not because you weren't the best choice, but simply because you were too busy to be the <strong>fastest</strong>.</p>
+            <p class="agitate-text">You're spending money on ads to get your name out there... only to let the leads die on the vine. It feels like pouring water into a bucket full of holes. Every lost lead is another evening you have to spend worrying about cash flow instead of being with your family.</p>
+        </div>
+        
+        <!-- Section 3: Introduce the "Dream" Solution -->
+        <div class="section">
+            <h3 class="section-headline">Imagine This For a Second... Your Business, But on Autopilot.</h3>
+            <p style="text-align: left; font-size: 1.1em; max-width: 700px; margin: 20px auto;">What if you could focus 100% on being the expert craftsman, while a completely automated system handled the rest? A world where:</p>
+            <ul class="pain-points-list" style="background: #f0f4f8;">
+                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>No lead is ever missed.</strong> A potential customer calls, and if you can't answer, they immediately get a professional text message back. You're already ahead of 90% of your competitors.</li>
+                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>Your follow-up is relentless and perfect.</strong> A web lead comes in, and a system instantly starts a conversation, qualifies them, and even books them on your calendar.</li>
+                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>Your reputation becomes legendary.</strong> After every completed job, your happy customer automatically gets a simple link to leave a 5-star review on Google.</li>
+            </ul>
+             <p style="font-size: 1.2em; font-weight: 600; margin-top: 30px;">This isn't a fantasy. It's the difference between being a stressed-out solo operator and the CEO of a smoothly running, scalable business.</p>
+        </div>
+
+        <!-- Section 4: Reveal GoHighLevel -->
+        <div class="section">
+            <h3 class="section-headline">Stop Being a Juggler. Start Being a CEO. This is GoHighLevel.</h3>
+            <p style="font-size: 1.1em; max-width: 700px; margin: 20px auto 40px auto;">The system we just described isn't a team of receptionists or a complicated collection of expensive software. It's one single, powerful platform that plugs every leak in your business.</p>
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <p class="pain">Pain Point: Missing calls while on a job?</p>
+                    <p class="ghl-solution"><strong>GHL Solution:</strong> Our <strong>Missed Call Text-Back</strong> feature instantly engages callers you can't get to, capturing the lead before they can call your competitor.</p>
+                </div>
+                <div class="solution-item">
+                    <p class="pain">Pain Point: Website leads going into a black hole?</p>
+                    <p class="ghl-solution"><strong>GHL Solution:</strong> The <strong>Unified Conversation Inbox</strong> and <strong>Automated Workflows</strong> capture every single lead and immediately start the follow-up sequence.</p>
+                </div>
+                 <div class="solution-item">
+                    <p class="pain">Pain Point: Forgetting to follow up?</p>
+                    <p class="ghl-solution"><strong>GHL Solution:</strong> Build "set it and forget it" follow-up campaigns using email, SMS, and even ringless voicemail to nurture leads until they are ready to buy.</p>
+                </div>
+                <div class="solution-item">
+                    <p class="pain">Pain Point: Struggling to get more online reviews?</p>
+                    <p class="ghl-solution"><strong>GHL Solution:</strong> Our <strong>Reputation Management</strong> tool automates the review request process, making it effortless to become the top-rated provider in your area.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section 5: Social Proof & CTA -->
+        <div class="section">
+            <h3 class="section-headline">Stop Patching Holes. It's Time for a New Foundation.</h3>
+            <div class="testimonial-card">
+                <p>"Before GoHighLevel, our lead management was a mess. We literally captured three jobs worth over $7,000 in the first month from leads that we would have otherwise missed. The 'Missed Call Text-Back' is a game-changer."</p>
+                <footer>— John D., Plumbing Contractor</footer>
+            </div>
+            <div class="testimonial-card">
+                <p>"The automated booking and follow-up have saved us at least 10 hours a week in admin time. We're not just getting more jobs; we're getting our evenings back."</p>
+                <footer>— Sarah M., HVAC Business Owner</footer>
+            </div>
+            
+            <h3 style="font-size: 1.5em; margin-top: 50px;">Your business can't afford another week of leaking leads.</h3>
+            <p style="font-size: 1.2em;">Every day you wait, another potential high-value job is calling your competitor.</p>
+            
+            <a href="https://www.gohighlevel.com/?fp_ref=businessgrowthtools" class="cta-button" target="_blank">
+                🚀 Yes! I Want My FREE 14-Day Trial To Stop Losing Leads! 🚀
+            </a>
+            <p class="cta-subtext">No contracts. No hassle. Just a powerful system to help you grow.</p>
         </div>
     </div>
 
-    <div class="container hero-section">
-        <h2>Stop Losing Leads & Simplify Your Entire Home Services Business.</h2>
-        <p>GoHighLevel is the all-in-one AI-powered platform trusted by top agencies and entrepreneurs. Now, it's ready to transform *your* plumbing, HVAC, electrical, or contracting business.</p>
-
-        <a href="https://www.gohighlevel.com/?fp_ref=businessgrowthtools" class="cta-button" target="_blank">🚀 Start Your FREE 14-Day GoHighLevel Trial Now!</a>
-
-        <div class="value-props">
-            <div class="value-prop-card">
-                <h3>💰 Automate Lead Generation & Follow-Up</h3>
-                <p>Never miss a potential customer. GoHighLevel captures leads 24/7 and automates personalized follow-up sequences via SMS, email, and voicemails. Focus on the job, not chasing leads.</p>
-            </div>
-            <div class="value-prop-card">
-                <h3>🗓️ Streamline Scheduling & Client Communication</h3>
-                <p>Effortlessly manage appointments, send automated reminders, and provide instant client communication. Reduce no-shows and keep your customers informed with ease.</p>
-            </div>
-            <div class="value-prop-card">
-                <h3>⭐ Boost Your Online Reputation & Get More Reviews</h3>
-                <p>Leverage automated review requests to build a powerful online presence. Collect 5-star reviews effortlessly and stand out from your competition on Google, Yelp, and more.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container testimonials">
-        <h2>Hear From Home Service Businesses Already Crushing It with GoHighLevel!</h2>
-        <div class="testimonial-card">
-            <p>"Before GoHighLevel, our lead management was a mess. Now, everything's automated. We're booking more jobs and our customer satisfaction has soared!"</p>
-            <footer>— John D., Plumbing Contractor</footer>
-        </div>
-        <div class="testimonial-card">
-            <p>"The automated booking and follow-up in GoHighLevel have saved us countless hours. It's like having an entire sales team working for us 24/7."</p>
-            <footer>— Sarah M., HVAC Business Owner</footer>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 GoHighLevel Affiliate Partner. All Rights Reserved.</p>
-            <p><small>Affiliate earnings vary. Results depend on individual effort and market conditions.</small></p>
-        </div>
+    <footer class="main-footer">
+        <p>&copy; 2026 GoHighLevel Affiliate Partner. All Rights Reserved.</p>
+        <p><small>Affiliate earnings vary. Results depend on individual effort and market conditions.</small></p>
     </footer>
 </body>
 </html>
