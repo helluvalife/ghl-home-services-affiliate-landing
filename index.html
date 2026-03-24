@@ -11,37 +11,38 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f7f9fc;
-            color: #2c3e50;
+            background-color: #121212; /* Dark background */
+            color: #e0e0e0; /* Light text */
         }
         .header-bar {
-            background: #ffffff;
+            background: #1f1f1f; /* Slightly lighter dark shade */
             width: 100%;
             padding: 15px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
             text-align: center;
-            border-bottom: 3px solid #155eef;
+            border-bottom: 3px solid #2979ff; /* Brighter blue for dark theme */
         }
         .header-bar h1 {
             margin: 0;
-            color: #155eef;
+            color: #2979ff;
             font-size: 1.6em;
             font-weight: 600;
         }
         .container {
             width: 90%;
-            max-width: 800px; /* More focused for long-form copy */
+            max-width: 800px;
             margin: 40px auto;
             padding: 40px;
-            background: #ffffff;
+            background: #1e1e1e; /* Dark container background */
             border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
             text-align: center;
+            border: 1px solid #333;
         }
         .section {
             margin-bottom: 50px;
             padding-bottom: 30px;
-            border-bottom: 1px solid #e2e8f0;
+            border-bottom: 1px solid #444; /* Darker border */
         }
         .section:last-child {
             border-bottom: none;
@@ -49,20 +50,20 @@
         }
         h2.main-headline {
             font-size: 2.8em;
-            color: #1a202c;
+            color: #ffffff; /* White headline */
             margin-bottom: 15px;
             line-height: 1.2;
             font-weight: 700;
         }
         h3.sub-headline {
             font-size: 1.4em;
-            color: #4a5568;
+            color: #b0b0b0; /* Lighter gray for sub-headline */
             margin-bottom: 40px;
             font-weight: 400;
         }
         h3.section-headline {
              font-size: 2.2em;
-             color: #155eef;
+             color: #2979ff;
              margin-bottom: 30px;
         }
         .pain-points-list {
@@ -73,23 +74,24 @@
             margin: 30px auto;
         }
         .pain-points-list li {
-            background: #fffbe6; /* Light warning yellow */
+            background: #2c2c2c; /* Darker card background */
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 15px;
-            border-left: 5px solid #ffc107; /* Warning yellow */
+            border-left: 5px solid #ffab00; /* Amber/yellow accent */
             font-size: 1.1em;
+            color: #e0e0e0;
         }
         .pain-points-list strong {
-            color: #d9534f; /* Red for emphasis on pain */
+            color: #ff5252; /* Brighter red for pain emphasis */
         }
         .agitate-text {
             font-size: 1.2em;
             font-style: italic;
-            color: #718096;
+            color: #a0a0a0; /* Lighter gray for agitated text */
             max-width: 700px;
             margin: 20px auto;
-            border-left: 4px solid #e2e8f0;
+            border-left: 4px solid #444;
             padding-left: 20px;
             text-align: left;
         }
@@ -102,22 +104,22 @@
         }
         .solution-item .pain {
             font-weight: 700;
-            color: #d9534f;
+            color: #ff5252;
             font-size: 1.1em;
         }
         .solution-item .ghl-solution {
-            background: #e2f0ff;
+            background: #2a3a5e; /* Dark blue background */
             padding: 10px 15px;
             border-radius: 5px;
-            border-left: 4px solid #155eef;
+            border-left: 4px solid #2979ff;
         }
         .solution-item .ghl-solution strong {
-            color: #155eef;
+            color: #82b1ff; /* Light blue for emphasis */
         }
         .cta-button {
             display: inline-block;
-            background: #28a745; /* Green for go */
-            color: #ffffff;
+            background: #00c853; /* Brighter Green */
+            color: #000000; /* Black text for high contrast */
             padding: 20px 40px;
             text-decoration: none;
             border-radius: 8px;
@@ -126,40 +128,40 @@
             font-size: 1.6em;
             font-weight: 700;
             transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            box-shadow: 0 4px 15px rgba(0, 200, 83, 0.4);
             line-height: 1.3;
         }
         .cta-button:hover {
-            background: #218838;
+            background: #00bfa5;
             transform: translateY(-3px);
         }
         .cta-subtext {
             font-size: 0.9em;
-            color: #718096;
+            color: #a0a0a0;
         }
         .testimonial-card {
-            background: #f8f9fa;
+            background: #2c2c2c;
             padding: 25px;
             border-radius: 8px;
             margin-bottom: 25px;
             text-align: left;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #444;
         }
         .testimonial-card p {
             font-style: italic;
-            color: #4a5568;
+            color: #e0e0e0;
             font-size: 1.1em;
             margin-top: 0;
         }
         .testimonial-card footer {
             font-weight: bold;
             margin-top: 15px;
-            color: #1a202c;
+            color: #ffffff;
             text-align: right;
         }
         footer.main-footer {
-            background: #2c3e50;
-            color: #e2e8f0;
+            background: #1f1f1f;
+            color: #a0a0a0;
             text-align: center;
             padding: 25px 0;
             margin-top: auto;
@@ -178,7 +180,10 @@
             <h2 class="main-headline">Are You A Pro On The Tools, But An Amateur At Lead Follow-Up? Stop Leaving Thousands On The Table.</h2>
             <h3 class="sub-headline">You're an expert at your trade. But while you're on a job, crawling through an attic or under a sink, missed calls, unread emails, and forgotten web leads are silently killing your growth.</h3>
             
-            <h3 class="section-headline">Does This Sound Familiar?</h3>
+            <a href="https://www.gohighlevel.com/?fp_ref=businessgrowthtools" class="cta-button" target="_blank">🚀 Start Your FREE 14-Day Trial Now! 🚀</a>
+            <p class="cta-subtext">Stop losing leads today. No-risk trial.</p>
+
+            <h3 class="section-headline" style="margin-top: 50px;">Does This Sound Familiar?</h3>
             <ul class="pain-points-list">
                 <li>You miss a call while you're with a client. You try to call back an hour later, but they've already booked with the competitor who answered first. <strong>(Lost Revenue)</strong></li>
                 <li>A potential client fills out your website contact form. The notification gets buried. You find it two days later, but they've already moved on. <strong>(Wasted Marketing)</strong></li>
@@ -199,12 +204,13 @@
         <div class="section">
             <h3 class="section-headline">Imagine This For a Second... Your Business, But on Autopilot.</h3>
             <p style="text-align: left; font-size: 1.1em; max-width: 700px; margin: 20px auto;">What if you could focus 100% on being the expert craftsman, while a completely automated system handled the rest? A world where:</p>
-            <ul class="pain-points-list" style="background: #f0f4f8;">
-                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>No lead is ever missed.</strong> A potential customer calls, and if you can't answer, they immediately get a professional text message back. You're already ahead of 90% of your competitors.</li>
-                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>Your follow-up is relentless and perfect.</strong> A web lead comes in, and a system instantly starts a conversation, qualifies them, and even books them on your calendar.</li>
-                <li style="border-left-color: #28a745; background: #e6f7ec;"><strong>Your reputation becomes legendary.</strong> After every completed job, your happy customer automatically gets a simple link to leave a 5-star review on Google.</li>
+            <ul class="pain-points-list" style="background: transparent;">
+                <li style="border-left-color: #00c853; background: #2e4436;"><strong>No lead is ever missed.</strong> A potential customer calls, and if you can't answer, they immediately get a professional text message back. You're already ahead of 90% of your competitors.</li>
+                <li style="border-left-color: #00c853; background: #2e4436;"><strong>Your follow-up is relentless and perfect.</strong> A web lead comes in, and a system instantly starts a conversation, qualifies them, and even books them on your calendar.</li>
+                <li style="border-left-color: #00c853; background: #2e4436;"><strong>Your reputation becomes legendary.</strong> After every completed job, your happy customer automatically gets a simple link to leave a 5-star review on Google.</li>
             </ul>
-             <p style="font-size: 1.2em; font-weight: 600; margin-top: 30px;">This isn't a fantasy. It's the difference between being a stressed-out solo operator and the CEO of a smoothly running, scalable business.</p>
+            <p style="font-size: 1.2em; font-weight: 600; margin-top: 30px;">This isn't a fantasy. It's the difference between being a stressed-out solo operator and the CEO of a smoothly running, scalable business.</p>
+             <a href="https://www.gohighlevel.com/?fp_ref=businessgrowthtools" class="cta-button" target="_blank" style="margin-top: 40px;">🚀 Take Control with a FREE 14-Day Trial 🚀</a>
         </div>
 
         <!-- Section 4: Reveal GoHighLevel -->
